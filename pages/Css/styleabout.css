@@ -1,0 +1,89 @@
+div.about{
+	text-align:left; 
+	background-color: white;
+	padding:1.5rem;
+	margin-bottom:40%;
+	color:black;
+	text-align: justify;
+	font-family: Gabriola;
+	word-spacing:5px;
+	font-size: 1rem;
+	position:relative;
+	box-sizing: border-box;
+	font-size:18px;
+}
+img.logo2{
+	width:5rem;
+	float: left;
+	opacity: 20;
+}
+#logo3{
+	width: 12rem;
+	float: left;
+}#main{
+	
+}
+img.img1{
+	width:60%;
+	margin-top:0rem;
+	margin-left:0rem;
+	
+}
+img.img2{
+	margin-top:0rem;
+	width:90%;
+	float:right;
+	margin-right:5rem;
+}
+img.img3{
+	width:60%;
+	margin-left:0rem;
+}
+img.img4{
+	width:90%;
+	float:right;
+	margin-right:5rem;
+}
+img.img5{
+	width:60%;
+	margin-left:0rem;
+}
+img.img6{
+	width:90%;
+	float:right;
+	margin-right:5rem;
+}
+img.img7{
+	width:60%;
+	margin-left:20rem;
+}
+table.infos{
+	font-family:Showcard Gothic;
+	font-size:100%;
+}
+#menus{
+	font-size: 500%;
+	margin-top:2rem;
+	margin-bottom:0rem;
+}
+.order{
+	margin-top:5rem;
+	text-align:center;
+	font-size:150%;
+	font-family:;
+}
+.ordernow{
+	border:1px solid black;
+	border-collapse:collapse;
+	font-family:Candara;
+	opacity:10000;
+	font-size:50x;
+	font-weight:bold;
+	margin-left:12rem;
+}
+
+
+
+
+
+

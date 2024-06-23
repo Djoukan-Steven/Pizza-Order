@@ -1,0 +1,353 @@
+<!DOCTYPEhtml>
+  <html>
+
+    <head>
+      <style>
+        body {
+          background-image: url('image/order.JPG');
+          background-size: cover;
+        }
+
+        h4 {
+          text-align: right;
+          color: #666;
+          font-size: 1rem;
+          box-sizing: border-box;
+          text-transform: capitalize;
+          transition: all 0.2s linear;
+          display: block;
+          margin-top: 0.1rem;
+          margin-bottom: 0.1rem;
+          border: 0.1rem;
+          word-spacing: 5px;
+          padding: 1.5rem 1.5rem;
+          border-radius: 3rem;
+          font-family: 'Nunito', sans-serif;
+        }
+
+        a {
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+        }
+
+        h4 a:hover {
+          color: crimson;
+        }
+
+        .button {
+          border: none;
+          font-weight: bold;
+          padding: 1rem 2rem;
+          background-color: royalblue;
+        }
+      </style>
+      <link rel="stylesheet" href="Css/styleabout.css" />
+      <title>DELICIOUS AFRIC PIZZA</title>
+    </head>
+
+    <body>
+      <div class="container" style="margin-left:0px; margin-left: 0px; margin-top:0px;">
+
+        <div id="top" style="width:100%">
+          <div>
+            <p>
+              <img id="logo3" src="image/DAP.JPG" alt=" " />
+            </p>
+            <h4>
+              <a href="../HOMEPAGE.html">HOMEPAGE</a> &nbsp;
+              <a href="Menu.html">MENU</a> &nbsp;
+              <a href="Order.html">ORDER NOW</a> &nbsp;
+              <a href="CONTACT US.html">CONTACT US</a> &nbsp;
+              <a href="ABOUT US.html">ABOUT US</a> &nbsp;
+            </h4>
+          </div>
+        </div>
+
+        <div class="order">
+          <table border="1" cellpadding="15px" class="ordernow">
+            <caption style="font-family:Showcard Gothic;font-size:50px">
+              <b>LIST OF MENU</b>
+            </caption>
+
+            <tr style="font-family:Showcard Gothic">
+              <td>MENU</td>
+              <th>PIZZA</th>
+              <th>QUANTITY</th>
+              <th>PRICE($)</th>
+            </tr>
+
+            <tr class="menuItem">
+
+              <td>
+                <input type="checkbox" name="pizzaName" id="pizzaOneName" value="CHICKEN SHAWARMA" />
+                <label for="pizza1">CHICKEN SHAWARMA</label>
+              </td>
+
+              <td>
+                <form>
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="10" id="P1" />
+                    <label for="P1">Half Pizza - $10</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="15" id="P2" />
+                    <label for="P2">Family Pizza - $15</label>
+                  </div>
+                </form>
+              </td>
+
+              <td>
+                <label for="unit">Unit</label>
+                <select name="quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </td>
+
+              <td>
+                <label>Total</label>
+                <input type="number" name="subTotal" />
+              </td>
+
+            </tr>
+
+            <tr class="menuItem">
+              <td>
+                <input type="checkbox" name="pizzaName" id="pizzaTwoName" value="HOT STUFF" />
+                <label for="pizza2">HOT STUFF</label>
+              </td>
+
+              <td>
+                <form>
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="9" id="P1" />
+                    <label for="P1">Half Pizza - $9</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="14" id="P2" />
+                    <label for="P2">Family Pizza - $14</label>
+                  </div>
+                </form>
+              </td>
+			  <td>
+                <label for="unit">Unit</label>
+                <select name="quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </td>
+
+              <td>
+                <label>Total</label>
+                <input type="number" name="subTotal" />
+              </td>
+			</tr>
+			
+			
+			<tr class="menuItem">
+              <td>
+                <input type="checkbox" name="pizzaName" id="pizzaTwoName" value="CLASSIC PEPPERONI" />
+                <label for="pizza3">CLASSIC PEPPERONI</label>
+              </td>
+
+              <td>
+                <form>
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="11" id="P1" />
+                    <label for="P1">Half Pizza - $11</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="20" id="P2" />
+                    <label for="P2">Family Pizza - $20</label>
+                  </div>
+                </form>
+              </td>
+			  <td>
+                <label for="unit">Unit</label>
+                <select name="quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </td>
+
+              <td>
+                <label>Total</label>
+                <input type="number" name="subTotal" />
+              </td>
+			</tr>
+
+			<tr class="menuItem">
+              <td>
+                <input type="checkbox" name="pizzaName" id="pizzaTwoName" value="SUPER SUPREME" />
+                <label for="pizza4">SUPER SUPREME</label>
+              </td>
+
+              <td>
+                <form>
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="7" id="P1" />
+                    <label for="P1">Half Pizza - $7</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="17" id="P2" />
+                    <label for="P2">Family Pizza - $17</label>
+                  </div>
+                </form>
+              </td>
+			  <td>
+                <label for="unit">Unit</label>
+                <select name="quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </td>
+
+              <td>
+                <label>Total</label>
+                <input type="number" name="subTotal" />
+              </td>
+			</tr>
+			
+			<tr class="menuItem">
+              <td>
+                <input type="checkbox" name="pizzaName" id="pizzaTwoName" value="VEGGIE" />
+                <label for="pizza5">VEGGIE</label>
+              </td>
+
+              <td>
+                <form>
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="15" id="P1" />
+                    <label for="P1">Half Pizza - $15</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="30" id="P2" />
+                    <label for="P2">Family Pizza - $30</label>
+                  </div>
+                </form>
+              </td>
+			  <td>
+                <label for="unit">Unit</label>
+                <select name="quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </td>
+
+              <td>
+                <label>Total</label>
+                <input type="number" name="subTotal" />
+              </td>
+			</tr>
+			
+			<tr class="menuItem">
+              <td>
+                <input type="checkbox" name="pizzaName" id="pizzaTwoName" value="GRILLED CHEEKY CHICKEN" />
+                <label for="pizza6">GRILLED CHEEKY CHICKEN</label>
+              </td>
+
+              <td>
+                <form>
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="6" id="P1" />
+                    <label for="P1">Half Pizza - $6</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="16" id="P2" />
+                    <label for="P2">Family Pizza - $16</label>
+                  </div>
+                </form>
+              </td>
+			  <td>
+                <label for="unit">Unit</label>
+                <select name="quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </td>
+
+              <td>
+                <label>Total</label>
+                <input type="number" name="subTotal" />
+              </td>
+			</tr>
+			
+			<tr class="menuItem">
+              <td>
+                <input type="checkbox" name="pizzaName" id="pizzaTwoName" value="TROPICAL HAWAIAN" />
+                <label for="pizza7">TROPICAL HAWAIAN</label>
+              </td>
+
+              <td>
+                <form>
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="12" id="P1" />
+                    <label for="P1">Half Pizza - $12</label>
+                  </div>
+
+                  <div>
+                    <input type="radio" name="pizzaUnitPrice" value="26" id="P2" />
+                    <label for="P2">Family Pizza - $26</label>
+                  </div>
+                </form>
+              </td>
+			  <td>
+                <label for="unit">Unit</label>
+                <select name="quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </td>
+
+              <td>
+                <label>Total</label>
+                <input type="number" name="subTotal" />
+              </td>
+			</tr>
+			
+				 <tr>
+              <td colspan="2"></td>
+              <td>
+                <button class="button" id="calculateButton">Calculate Total</button>
+              </td>
+              <td>
+                Total ($ <span id="total">0</span>)
+              </td>
+            </tr>
+
+
+
+</table>
+</div>
+</div>
+	<script src="js/javascript.js"></script>
+</body>
+</html>

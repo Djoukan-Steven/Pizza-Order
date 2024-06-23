@@ -1,0 +1,85 @@
+h4{
+	text-align: right; 
+	font-size: 1rem;
+	font-color: #666;
+	box-sizing: border-box;
+	text-transform: capitalize;
+	transition: all 0.2s linear;
+	display: block;
+	border: 0.1rem;
+	word-spacing:5px;
+	padding: 1.5rem 1.5rem;
+	border radius: 3rem;
+	font-family: 'Nunito',sans-serif;
+	
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+h4 a:hover {
+		color: crimson;
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	font-family:showcard gothic;
+}
+#logo{
+	width: 10rem;
+	float: left;
+}
+
+p.capture{
+	padding: 0rem;
+	text-align: center; 
+	color: dark;
+	font-weight: bold;
+	font-size: 30px; 
+	font-family: broadway;
+	text-decoration: italic;
+}
+#opening{
+	font-size:13px;
+	margin-right: auto;
+	margin-left:auto;
+	font-family:lucida calligraphy;
+	width:30%;
+	text-align:right;
+	margin-right:90px;
+	color:red;
+}
+div.bottom{
+	font-family:ravie;
+	font-size:20px;
+	word-spacing:0.1rem;
+	
+}
+div.welcome{
+	width:200px;
+	height:190px;
+	background-color:pink;
+	opacity:0.9;
+	margin:0rem;
+	
+}
+div.about{
+	font-size:13px;
+	margin-right: auto;
+	margin-left:auto;
+	font-family:lucida calligraphy;
+	width:30%;
+	text-align:right;
+	margin-right:90px;
+	color:red;
+}
+#logo2{
+	width: 9rem;
+	float: left;
+}
+
+
+
+
+
+
